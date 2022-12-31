@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitex</title>
+    
+    <!-- ===========================  Favicon  =========================== -->
+    <link rel="icon" href="/images/favicon.ico">
+    <!-- ===========================  OwlCarousel2-2.3.4  =========================== -->
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <!-- ======================  Bootstrap  ====================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ======================  Custom CSS  ====================== -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- ====================== Responsive CSS =================== -->
+    <link rel="stylesheet" href="./css/media.css">
+    <!-- ====================== Animation CSS ====================== -->
+    <link rel="stylesheet" href="./css/animation.css">
+</head>
+
+<body>
+    
+    <!-- ============================ Header ===========================-->
+    <header>
+        <div class="glass hsticky">
+            <!-- ============================ Responsive Menu ===========================-->
+            <div class="second-menuTwo text-left">
+                <ul class="resNav d-flex flex-column f-16 navActive">
+                    <li class="nav-item close-nav mb-3">
+                        <span class="me-auto">Categories</span>
+                        <i class="fa-solid fa-xmark closeBtn  d-flex justify-content-center align-items-center"></i>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="category.html">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="category.html">about us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="category.html">video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="category.html">review</a>
+                    </li>
+                </ul>
+                <div class="overlay overlayActive"></div>
+            </div>
+            <div class="container">
+                <div class="row py-2 md-py-3 d-flex align-items-center justify-content-between">
+                    <div class="col-4 col-md-3">
+                        <a href="index.html" class="Logo me-md-auto">
+                            <img src="./images/White_Logo_1.png" alt="Bitexe Logo" draggable="false" class="img-fluid Logo">
+                        </a>
+                    </div>
+                    <div class="col-lg-7 text-center dNone">
+                        <ul class="menu p-0 mb-0">
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">video</a></li>
+                            <li><a href="#">review</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-lg-2 col-3">
+                        <div class="text-end user-icon d-flex align-iteams-center justify-content-end">
+                            <a href="#" class="search pe-3"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <div class="username">
+                                <a href="#">
+                                    <i class="fa-regular fa-user"></i>
+                                </a>
+                                <ul class="name">
+                                    <li><a href="signIn.html">Login</a></li>
+                                    <li><a href="signUp.html">Register</a></li>
+                                </ul>
+                            </div>
+                            <div class="ms-4">
+                                <i class="fa-solid fa-bars navbar p-0"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> 
+
+    <!-- ============================= Main Banner ==========================-->
+    <section class="main-banner">        
+        <div class="flex-column-reverse flex-lg-row">
+            <div class="banner">                                        
+                <img src="./images/Banner/img.png" alt="Main Image" class="w-100 img-fluid" draggable="false">
+            </div>
+            <div class="container">
+                <div class="bnr-contant d-flex flex-column justify-content-center align-items-start">
+                    <div class="d-flex flex-column justify-content-center align-items-start">
+                        <h3 class="display-1 fw-bolder mainh1">Bitex</h3>
+                    </div>
+                    <p class="contentTxt my-lg-3">
+                        The launch of Bitcoin in 2009 signalled a turning point in the development of finance and technology.
+                        The original coin is the source of everything else you encounter in the world of cryptocurrencies.
+                        Understanding Bitcoin will lay a solid foundation for all of your knowledge about cryptocurrencies.
+                    </p>
+                </div>                
+            </div>
+        </div>
+    </section>
+    <!-- =================================================================================================
+                                                Stacking 
+    ================================================================================================= -->       
+
+    <!-- ==================== Tabel Start ==================-->
+    <div class="tabel section-spacing">
+        <div class="head">
+            <svg>
+                <text x="50%" y="50%" text-anchor="middle" class="Heading">
+                    Referall
+                </text>
+            </svg>
+        </div>
+        <div class="container">
+            <table>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th class="text-end">Amount</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-column="First Name">James</td>
+                    <td data-column="Last Name" class="text-end">₹.30,000/-</td>
+                  </tr>
+                  <tr>
+                    <td data-column="First Name">Andor</td>
+                    <td data-column="Last Name" class="text-end">₹.75,000/-</td>
+                  </tr>
+                  <tr>
+                    <td data-column="First Name">Tamas</td>
+                    <td data-column="Last Name" class="text-end">₹.1,20,000/-</td>
+                  </tr>
+                  <tr>
+                    <td data-column="First Name">Zoli</td>
+                    <td data-column="Last Name" class="text-end">₹.10,05,000/-</td>
+                  </tr>
+                  <tr>
+                    <td data-column="First Name">Szabi</td>
+                    <td data-column="Last Name" class="text-end">₹.12,55,000/-</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+    <!-- ==================== Tabel End ==================-->
+
+        <!-- ==================== left banner start ==================-->
+        <div class="left-bnr section-spacing">
+            <div class="container">
+                <div class="head">
+                    <svg>
+                        <text x="50%" y="50%" dy=".35em" text-anchor="middle" class="Heading">
+                            Bitex
+                        </text>
+                    </svg>
+                </div>
+                <!-- <h3 class="Heading">Lorem</h3> -->
+                <div class="row d-flex align-items-center ">
+                    <div class="col-lg-6 img">
+                        <div class="beffect">
+                            <a href="#">
+                                <img src="./images/Left-Banner/left-bnr.png" alt="left banner" class="w-100 img-fluid" draggable="false">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="leftbnr-contant">
+                            <!-- <h4>Bitex</h4> -->
+                            <p>A type of cryptocurrency known as fiat-collateralized stablecoins, Tether was the first to be advertised as a stablecoin.
+                                Tether's value is linked to a fiat currency, in this case the dollar. The majority of cryptocurrencies will be exchanged
+                                using Tether in 2022, making it the largest stablecoin in the world.</p>
+                            <!-- <div class="bnr-btn">
+                                <a href="#" class="cusBtntwo">shop</a>
+                                <a href="#" class="cusBtntwo ms-lg-2">All Product</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ==================== left banner End ==================-->
+
+        <!-- ==================== Center banner Start ==================-->
+        <div class="center-bnr section-spacing">
+            <div class="container img">
+                <div class="head">
+                    <svg>
+                        <text x="50%" y="50%" dy=".35em" text-anchor="middle" class="Heading">
+                            Crypto Currency
+                        </text>
+                    </svg>
+                </div>
+                <!-- <h3 class="Heading">Lorem</h3> -->
+                <div class="beffect">
+                    <a href="#">
+                        <img src="./images/Center-Banner/Center-bnr.png" alt="left banner" class="w-100 img-fluid" draggable="false">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- ==================== Center banner End ==================-->
+
+        <!-- ==================== Right banner start ==================-->
+        <div class="left-bnr section-spacing">
+            <div class="container">
+                <div class="head">
+                    <svg>
+                        <text x="50%" y="50%" dy=".35em" text-anchor="middle" class="Heading">
+                            Stable Coin
+                        </text>
+                    </svg>
+                </div>
+                <!-- <h3 class="Heading">Lorem</h3> -->
+                <div class="row d-flex align-items-center ">                    
+                    <div class="col-lg-6">
+                        <div class="leftbnr-contant">
+                            <h4>Bitex</h4>
+                            <p>Tether is intended to provide users with stability, transparency, and lower transaction fees,
+                                just like other stablecoins. Unlike certain cryptocurrencies, Tether was not intended to be a
+                                speculative investment; at first, USDT was utilised by investors who wished to stay away from
+                                the crypto market's ferocious volatility. Tether is supposedly maintained at a 1:1 value to
+                                the dollar and is tied to the U.S. dollar (thus the ticker USDT), though this claim has come
+                                under considerable question.</p>
+                            <!-- <div class="bnr-btn">
+                                <a href="#" class="cusBtntwo">shop</a>
+                                <a href="#" class="cusBtntwo ms-lg-2">All Product</a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-6 img right-img">
+                        <div class="beffect">
+                            <a href="#">
+                                <img src="./images/Right-Banner/Right-bnr.png" alt="left banner" class="w-100 img-fluid" draggable="false">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ==================== Right banner End ==================-->
+
+        <!-- ==================== Second Tabel Start ==================-->        
+        <div class="tedti section-spacing">
+            <div class="testimonial">
+                <div class="tabel">
+                    <div class="head">
+                        <svg class="testi">
+                            <text x="50%" y="50%" text-anchor="middle" class="Heading">
+                                Recently Joined
+                            </text>
+                        </svg>
+                    </div>
+                    <div class="second-table">
+                        <div class="container">
+                            <table>
+                                <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th class="text-end">Amount</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td data-column="First Name">James</td>
+                                    <td data-column="Last Name" class="text-end">₹.30,000/-</td>
+                                </tr>
+                                <tr>
+                                    <td data-column="First Name">Andor</td>
+                                    <td data-column="Last Name" class="text-end">₹.75,000/-</td>
+                                </tr>
+                                <tr>
+                                    <td data-column="First Name">Tamas</td>
+                                    <td data-column="Last Name" class="text-end">₹.1,20,000/-</td>
+                                </tr>
+                                <tr>
+                                    <td data-column="First Name">Zoli</td>
+                                    <td data-column="Last Name" class="text-end">₹.10,05,000/-</td>
+                                </tr>
+                                <tr>
+                                    <td data-column="First Name">Szabi</td>
+                                    <td data-column="Last Name" class="text-end">₹.12,55,000/-</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ==================== Second Tabel End ==================-->
+
+        <!-- ============= HOW ACTIVE DEPOSIT WORKS? ==================-->
+        <section class="margSectop secondSec">
+            <div class="one circle"></div>
+            <div class="two circle"></div>
+            <div class="three circle"></div>
+            <div class="four circle"></div>
+            <div class="five circle"></div>
+            <div class="six circle"></div>
+            <div class="seven circle"></div>
+        </section>
+
+        <!-- ==================== Blog Start ==================-->
+        <div class="blog">
+            <div class="container">
+                <div class="head">
+                    <svg>
+                        <text x="50%" y="50%" dy=".35em" text-anchor="middle" class="Heading">
+                            Blog
+                        </text>
+                    </svg>
+                </div>
+                <!-- <h3 class="Heading">Blog</h3> -->
+                <div id="blog" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/1.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/2.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/3.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/4.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/5.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/6.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/7.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/8.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/9.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/10.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/11.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/12.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/13.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/14.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/15.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/16.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/17.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/18.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/19.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="blog-contant">
+                            <div class="blog-img">
+                                <img class="img-responsive center-block timg img-fluid" src="./images/Blog/20.png" alt="Blog" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ==================== Blog End ==================-->
+
+
+    <!-- ===========================================================================================================================================
+                                                    Footer
+    ===========================================================================================================================================-->
+    <footer class="margFoottop">
+        <div class="bg_Footer">
+            <div class="container">             
+                <div class="row justify-content-center">                    
+                    <div class="Subscribe_Box p-4">
+                        <h4 class="fw-bolder">Subscribe our news letter</h4>
+                        <h6 class="">Signup for our newsletter to get the latest news in your inbox.</h6>
+                        <div class="input-group mt-3">
+                            <input type="text" class="form-control" placeholder="Recipient's username"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <span class="input-group-text emailBtn" id="basic-addon2"><a href="#"
+                                    class="px-sm-3 px-xl-5">Submit</a></span>
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between align-items-center mt-lg-5 mt-3 mb-3 account">
+                        <a href="index.html" class="Logo me-md-auto">
+                            <img src="./images/White_Logo.png" alt="Bitexe Logo" draggable="false" class="img-fluid Logo">
+                        </a>
+                        <a href="Staking.html" class="cusNav login">Login</a>
+                    </div>
+                    <hr class="cusHR">
+                </div>
+                <div class="row py-3 main-copyright">
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="copyright">
+                        © Copyright 2022 - All rights are reserved by BITEXE</div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 text-end">
+                        <div class="social-media d-flex align-iteams-center justify-content-end">
+                            <a href="#" class="fb"><i class="fa-brands fa-facebook-f"></i></i></a>
+                            <a href="#" class="ins"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="twi"><i class="fa-brands fa-twitter"></i></i></a>
+                            <a href="#" class="link me-0"><i class="fa-brands fa-linkedin-in me-0"></i></a>
+                        </div>
+                    </div>
+                </div>                    
+                <div class="back-to-top">
+                    <a href="#" id="back-top" style="display: block;"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- ===========================  jquery-3.6.0.min.js  =========================== -->
+    <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
+    <!-- ===========================  OwlCarousel2-2.3.4  =========================== -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <!-- ======================  Bootstrap  ====================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- ======================== Wow JS ============================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- ===========================  Custom JS  =========================== -->
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>
